@@ -1,0 +1,111 @@
+---
+title: "China Power Crunch"
+author: "Xinyu Zheng"
+format:
+  revealjs:
+    # smaller: true
+    scrollable: true
+    theme: serif
+editor: visual
+---
+
+
+# Visualization 01
+
+## Purpose of visualization 01
+
+This visualization is meant to investigate the reasons for the 2021 power crunch in Guangdong. From the supply side, due to the rising coal price, the estimated cost of coal to produce one kWh of electricity exceeded the standard electricity price per kW and squeezed the profit of electric utility companies. From the demand side, it was reported that manufacturers restarted production when the restriction on domestic and international trade became lenient and thus drove up the power demand. In the following visualization, we will look into another case of power crunch in Sichuan.
+
+---
+
+![](output/viz01_.guangdong_blackout.jpg){fig-align="center"}
+
+# Visualization 02
+
+## Purpose of visualization 02
+
+This visualization is meant to investigate the reasons for the 2022 power crunch in Sichuan. First, the temperature data in Chengdu, the capital of Sichuan, show that the temperature was persistently higher during the 2022 summer compared to the same time in 2021. However, because of lacking monthly power consumption data, no evidence can draw from the visualization to support the government's claim that this power crunch resulted from residents' high demand for power to combat the heat waves. Second, with data on energy consumption by corporates and energy-intensive industries, this visualization only presents the government intervention during the summer to limit the energy consumption by corporates and enterprises. In the following visualization, we are able to see more persuasive evidence that this power crunch is a consequence of shock from the supply side.
+
+---
+
+![](output/viz02_chengdu_blackout_1.jpg){fig-align="center"}
+
+# Visualization 03
+
+## Purpose of visualization 03
+
+This visualization is also meant to investigate the reasons for the 2022 power crunch in Sichuan but from the supply side. It is easy to observe a significant drop in hydropower generation from July to September 2022. This is an abnormality as in the same time of 2021, the hydropower generation maintained at a high level. In addition, this visualization shows that hydropower constituted the majority of power generated in Sichuan, which means the dramatic decline in hydropower would impose a lot of pressure on the power availability in Sichuan. Such instability is believed to be one of the major drawbacks of renewable energy. Other unsolved problems about renewable energy development will be presented in later visualizations.
+
+In both cases of power crunch, it was hard for policymakers to intervene in the power demand except by issuing power restrictions. However, there are some approaches for policies to impact the supply side, namely, power supply from coal and renewables, in the middle and long term. The following visualizations will try to get some clues by analyzing the coal and renewable market.
+
+---
+
+![](output/viz03_sichuan_power_gen_1.jpg){fig-align="center"}
+
+# Visualization 04
+
+## Purpose of visualization 04
+
+This stacked and dodged bar chart compares China's coal consumption and supply, decomposed into net production and imports. This is meant to demonstrate that after an intended cut in coal production to comply with the sustainable goal, coal consumption exceeded its supplies in China, pushing China to rebound its coal production. The shrinking coal stock was also one of the reasons that caused the rising coal price in 2021, which led to the nationwide power crunch. Indeed, increasing coal production is a short-term solution to China's power crunch. However, this solution will emit more greenhouse gas than the already high emission now, dragging back China's efforts to combat climate change. 
+
+---
+
+![](output/viz04_china_coal_prod_1.jpg){fig-align="center"}
+
+# Visualization 05
+
+## Purpose of visualization 05
+
+This treemap is meant to decompose the total coal consumption of China in 2020 into agriculture, industry, and service sectors and further into subsectors in each sector to see which sectors contributed to the coal consumption. The results suggested that the production and supply of electricity and heat, as well as mining, production, and processing of coal, petroleum, and other fuels, consume the majority of the coal. Therefore, increasing the coal-use efficiency in these sectors is critical for China to control coal consumption. The following visualization demonstrates the efficacy of improving coal-use efficiency in controlling coal consumption.
+
+---
+
+![](output/viz05_coal_composition_1.jpg){fig-align="center"}
+
+# Visualization 06
+
+## Purpose of visualization 06
+
+This ridgeline chart is meant to demonstrate the efficacy of decreasing coal use intensity (increasing coal-use efficiency) in reducing coal consumption. By showing the distribution of coal consumption for different levels of coal intensity based on pooled data from 76 countries from 2000 to 2018, I want to show that countries with lower coal intensity (higher coal-use efficiency) tend to consume less coal than those with higher coal intensity (lower coal-use efficiency), arguing that decreasing coal intensity is an effective solution to control coal consumption. The following visualization will turn to discuss renewable energy.
+
+---
+
+![](output/viz06_coal_intensity_1.jpg){fig-align="center"}
+
+# Visualization 07
+
+## Purpose of visualization 07
+
+This box chart is meant to demonstrate that renewable energy is another solution to China's power crunch besides coal production expansion and energy efficiency improvement. The data shows that the average energy consumption, controlling for GDP variety, has decreased with the increasing share of primary energy from renewable sources, which implies the potential of renewable energy development in reducing total energy consumption. The following visualization is to understand China's renewable energy development further.
+
+---
+
+![](output/viz07_renewable_efficiency_1.jpg){fig-align="center"}
+
+# Visualization 08
+
+## Purpose of visualization 08
+
+This heat map is meant to understand the status quo of China’s renewable energy development. By comparing the percentage of primary energy from renewable resources over time and across 20 countries with the highest GDP in 2018, I want to demonstrate that even though China has experienced rapid growth in renewable capacity since the 11th Five-year plan, there is still a gap in renewable development between China and Brazil, Canada, and some European countries. The following visualizations will explore the existing problems in renewable energy development in China.
+
+---
+
+![](output/viz08_renewable_change_by_countries_1.jpg){fig-align="center"}
+
+# Visualization 09
+
+## Purpose of visualization 09
+
+This dumbbell plot is meant to depict the gap between the renewable power generated and the renewable power generation capacity since 2010. The enlarging gap over time suggested that even though the renewable power generation capacity (the number of renewable power infrastructures installed) has been increasing, the utilization rate has not increased accordingly. The policy implication from this visualization regarding renewable energy development is to invest more in the technologies to improve the utilization rate, which is more imperative than spending on installing more renewable power infrastructure.
+
+---
+
+![](output/viz09_renewable_cap_1.jpg){fig-align="center"}
+
+# Visualization 10
+
+## Purpose of visualization 10
+
+This interactive map was created by Tableau. Please view it through https://public.tableau.com/views/viz10_electricity_consumption_and_renewable_power_production/1?:language=zh-CN&:display_count=n&:origin=viz_share_link or by openning viz10_interactive.twbx.
+
+This interactive map is meant to compare the distribution of energy consumption and renewable power generation in China by year. We can see that eastern China consumes far more energy than the rest part of China, but western China generates the majority of renewable power. This geographical mismatch of energy consumption and renewable power generation imposes additional difficulty transmitting and storing power. The main argument is that investment in reducing power loss during transmission and enhancing power storage technology is essential for future renewable energy development.
